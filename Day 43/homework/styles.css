@@ -1,0 +1,69 @@
+body {
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.bmw-logo {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.circle {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 5px solid black;
+}
+
+.outer-circle {
+    width: 100%;
+    height: 100%;
+    background-color: #1c1c1c;
+    border: 10px solid #ffffff;
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+    background-color: #003b5c;
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+    background-color: #003b5c;
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+    background-color: #006f9b;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+    background-color: #006f9b;
+}
+
+.inner-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.inner-text span {
+    font-weight: bold;
+    margin: 0 5px;
+}

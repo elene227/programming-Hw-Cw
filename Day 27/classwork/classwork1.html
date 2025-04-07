@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Elements Styling</title>
+    <style>
+        p:first-of-type {
+            color: blue;
+        }
+
+        p:nth-of-type(2) {
+            color: green;
+        }
+
+        p:nth-of-type(2) h2 {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<p>
+    <h1>ეს არის h1, რომელიც პირველი p თეგის შიგნითაა</h1>
+</p>
+
+<p>
+    <h2>ეს არის h2, რომელიც მეორე p თეგის შიგნითაა</h2>
+</p>
+
+</body>
+</html>

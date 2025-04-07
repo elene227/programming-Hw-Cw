@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>მუსიკა და ვიდეო</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .media-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .media-item {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>მუსიკა და ვიდეო</h1>
+    <div class="media-container">
+        <div class="media-item">
+            <video width="320" height="240" controls>
+                <source src="video1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="media-item">
+            <audio controls>
+                <source src="audio1.mp3" type="audio/mp3">
+            </audio>
+        </div>
+    </div>
+</body>
+</html>

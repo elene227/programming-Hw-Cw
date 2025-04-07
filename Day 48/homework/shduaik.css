@@ -1,0 +1,11 @@
+
+
+.mid{
+    display: flex;
+    justify-content: center;
+}
+
+
+.mid div{
+    background-color: black;
+}

@@ -1,0 +1,18 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    background-color: black;
+}
+
+
+body{
+    background-color: blue;
+}
+
+
+.buttons{
+    padding: 40px;
+
+}

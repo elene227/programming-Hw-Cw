@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>მანქანის შეკვეთა</title>
+</head>
+<body>
+
+    <h1>მანქანის შეკვეთა</h1>
+
+    <form action="/submit_order" method="POST">
+        <label for="first_name">სახელი:</label><br>
+        <input type="text" id="first_name" name="first_name" required><br><br>
+
+        <label for="last_name">გვარი:</label><br>
+        <input type="text" id="last_name" name="last_name" required><br><br>
+
+        <label for="phone">ტელეფონის ნომერი:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="vehicle">აირჩიეთ მანქანა ან მოტოცივლეტი თუ რაცაა:</label><br>
+        <select id="vehicle" name="vehicle" required>
+            <option value="car">მანქანა</option>
+            <option value="motorcycle">მოტოციკლეტი თუ რაცაა</option>
+        </select><br><br>
+
+        <input type="submit" value="გააგზავნე">
+    </form>
+
+</body>
+</html>

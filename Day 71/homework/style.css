@@ -1,0 +1,339 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+nav{
+    background-color: rgb(54, 54, 54);
+    border-top: 5px blue solid;
+    border-left: 5px blue solid;
+    border-right: 5px blue solid;
+    color: white;
+    display: flex;
+    gap:50px;
+    height:70px;
+    justify-content: center;
+}
+
+
+nav ul{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    font-size: large;
+    font-weight: 900;
+    margin-top:15px;
+
+}
+
+
+.ele{
+    color:blue;
+    
+
+}
+
+
+
+.profile{
+    color:blue;
+    text-decoration: underline;
+}
+
+
+h1 {
+    margin-right:100px;
+    font-size: xx-large;
+    margin-top:13px
+}
+
+
+
+header button{
+    background-color: white;
+    color: black;
+    width: 100px;
+    height:35px;
+    border-radius: 7px;
+    border: none;
+    font-weight: bold;
+    margin-left:50px
+}
+
+
+
+#section1{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-left:130px;
+    margin-top: 130px;
+    font-size: large;
+
+
+    
+}
+
+
+
+
+#section1 h1{
+    font-size: 3.5rem;
+
+}
+
+
+
+.cr{
+    color:blue;
+}
+
+
+
+#section1 h2{
+    font-weight: bolder;
+}
+
+
+
+.buttons{
+   
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top:10px;
+}
+
+
+
+.e{
+    background-color: rgb(0, 60, 255);
+    border: 3px solid black;
+    padding:15px;
+    font-size: 1rem;
+    border-radius: 7px;
+    color: white;
+
+}
+
+
+.a{
+    background-color: black;
+    border: none;
+    padding: 15px;
+    font-size: 1rem;
+    border-radius: 7px;
+    color: white;
+}
+
+
+
+
+#section1 p{
+    margin-top:10px;
+}
+
+
+
+
+
+.main{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+
+.section2 img{
+    width:400px;
+    height:410px;
+    margin-top:80px;
+    border-radius: 50%;
+    margin-left:50px;
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 200px) and (max-height: 1000px) {
+    nav{
+        display: block;
+        height:100px;
+        width:10000px;
+        background-color: grey;
+
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        
+        
+        
+        nav{
+            background-color: rgb(54, 54, 54);
+            border-top: 5px blue solid;
+            border-left: 5px blue solid;
+            border-right: 5px blue solid;
+            color: white;
+            display: flex;
+            gap:50px;
+            height:70px;
+            justify-content: center;
+        }
+        
+        
+        nav ul{
+            display: flex;
+            gap: 50px;
+            list-style-type: none;
+            font-size: large;
+            font-weight: 900;
+            margin-top:15px;
+        
+        }
+        
+        
+        .ele{
+            color:blue;
+            
+        
+        }
+        
+        
+        
+        .profile{
+            color:blue;
+            text-decoration: underline;
+        }
+        
+        
+        h1 {
+            margin-right:100px;
+            font-size: xx-large;
+            margin-top:13px
+        }
+        
+        
+        
+        header button{
+            background-color: white;
+            color: black;
+            width: 100px;
+            height:35px;
+            border-radius: 7px;
+            border: none;
+            font-weight: bold;
+            margin-left:50px
+        }
+        
+        
+        
+        #section1{
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            margin-left:130px;
+            margin-top: 130px;
+            font-size: large;
+        
+        
+            
+        }
+        
+        
+        
+        
+        #section1 h1{
+            font-size: 3.5rem;
+        
+        }
+        
+        
+        
+        .cr{
+            color:blue;
+        }
+        
+        
+        
+        #section1 h2{
+            font-weight: bolder;
+        }
+        
+        
+        
+        .buttons{
+           
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            margin-top:10px;
+        }
+        
+        
+        
+        .e{
+            background-color: rgb(0, 60, 255);
+            border: 3px solid black;
+            padding:15px;
+            font-size: 1rem;
+            border-radius: 7px;
+            color: white;
+        
+        }
+        
+        
+        .a{
+            background-color: black;
+            border: none;
+            padding: 15px;
+            font-size: 1rem;
+            border-radius: 7px;
+            color: white;
+        }
+        
+        
+        
+        
+        #section1 p{
+            margin-top:10px;
+        }
+        
+        
+        
+        
+        
+        .main{
+            display: flex;
+            flex-direction: row;
+        
+        }
+        
+        
+        
+        
+        .section2 img{
+            width:400px;
+            height:410px;
+            margin-top:80px;
+            border-radius: 50%;
+            margin-left:50px;
+        
+        }
+        
+        
+    }
+}
+

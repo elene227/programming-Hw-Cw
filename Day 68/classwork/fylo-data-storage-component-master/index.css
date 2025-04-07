@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: hsl(229, 57%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height:100vh;
+    background-image: url('./images/bg-desktop.png');
+    background-repeat: no-repeat;
+    
+
+}
+
+.border1{
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 15px 50% 15px 15px;
+    width: 220px;
+    height:210px;
+    padding: 20px;
+    color: hsl(229, 7%, 55%);
+    margin-right: 30px;
+    
+}
+
+
+
+
+.border2{
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 15px;
+    width: 500px;
+    height:180px;
+    margin-top:50px;
+    color: hsl(229, 7%, 55%);
+    padding:20px;
+    
+    
+}
+
+
+
+.line{
+    background-color:hsl(229, 64%, 9%);
+    height:20px;
+    width: 450px;
+    border-radius: 25px;
+}
+
+
+
+
+.help{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

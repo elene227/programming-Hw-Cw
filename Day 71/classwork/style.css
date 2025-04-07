@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+img{
+    width: 200px;
+    height: 230px;
+
+}
+
+
+@media(max-width: 450px){
+    img{
+        opacity: 99%;
+        width:200px;
+        height:230px;
+        background-color: antiquewhite;
+    }
+}
+
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+

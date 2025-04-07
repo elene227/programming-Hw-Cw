@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    input {
+      padding: 10px;
+      margin: 10px 0;
+      font-size: 16px;
+      border: 2px solid #ccc;
+      outline: none;
+    }
+
+    input[type="text"]:focus {
+      border-color: blue;
+    }
+
+    input[type="password"]:focus {
+      border-color: red;
+    }
+
+    input[type="email"]:focus {
+      border-color: green;
+    }
+
+    input[type="radio"]:checked {
+      border-color: purple;
+    }
+  </style>
+<body>
+    <!-- 1) შექმენით ფორმა სადაც იქნება 4 სხვადასხვა ტიპის ინფუთი შემდეგ მიწვდით თითოეულ ინფუთს ცალცალკრ ტიპიდან გამომდინარე შეუცვალეთ ბორდერის ფერი და ასევე მოაშორე outline-->
+    <form>
+        <label for="text">ტექსტური ინფუთი:</label>
+        <input type="text" id="text" name="text">
+    
+        <label for="password">პაროლი:</label>
+        <input type="password" id="password" name="password">
+    
+        <label for="email">ელ.ფოსტა:</label>
+        <input type="email" id="email" name="email">
+    
+        <label for="radio">რადიო:</label>
+        <input type="radio" id="radio" name="radio">
+      </form>
+</body>
+</html>

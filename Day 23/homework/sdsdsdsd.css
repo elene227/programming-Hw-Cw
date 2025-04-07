@@ -1,0 +1,25 @@
+h1 {
+    font-family: Arial, sans-serif;
+  }
+  
+  .style1 {
+    font-size: 40px;
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  .style2 {
+    font-size: 30px;
+    color: green;
+    font-weight: bold;
+  }
+  
+  #special {
+    font-size: 50px;
+    color: purple;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: right;
+  }
+  

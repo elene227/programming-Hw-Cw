@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(221, 100%, 96%);
+    height:100vh ;
+    font-family: 'Hanken Grotesk', sans-serif;
+      
+}
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.blue{
+    background: linear-gradient(to bottom, #6933ff, #2e2be9 );
+    width: 300px;
+    height: 430px;
+    padding:20px;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+}
+
+
+.b{
+    margin-top:10px;
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left:25px;
+    color:white;
+
+
+}
+
+#num{
+    padding-top:40px;
+    font-size: 5rem;
+    
+}
+
+.p1{
+    font-size: 15px;
+    color:hsl(0, 0%, 100%);
+    opacity: 40%;
+
+}
+
+
+
+.white{
+    background-color: hsl(0, 0%, 100%);
+    width:300px;
+    height:430px;
+    margin-right:20px;
+   border-radius: 20px;
+    padding: 20px;
+
+}
+
+.h3{
+    font-size: 1.5rem;
+    opacity: 50%;
+}
+
+
+.pupu{
+    margin-top: 20px;
+    opacity: 60%;
+}
+
+
+.great{
+    font-size: 1.8rem;
+    transform: translateY(20px)
+ }
+
+
+
+.sum{
+    font-size: 1.4rem;
+    color: hsl(224, 30%, 27%);
+    margin-bottom:15px;
+}
+
+.abcd{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:20px;
+    z-index: 2;
+
+}
+
+
+.a{
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(0, 100%, 67%);
+    opacity: 30%;
+    padding: 10px;
+
+    
+
+   
+    
+    
+}
+
+
+
+
+.bb{
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(39, 100%, 56%);
+    opacity: 30%;
+    padding: 10px;
+}
+
+
+.c{
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(166, 100%, 37%);
+    opacity: 30%;
+    padding: 10px;
+}
+
+
+.d{
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(234, 85%, 45%) ;
+    opacity: 30%;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+button{
+    background-color: rgb(20, 12, 3);
+    color:aliceblue;
+    border:none;
+}
+
+
+.refresh{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:35px;
+}
+
+
+
+
+.photos{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    z-index: 1;
+
+
+}
+
+
+.photos img{
+    width: 20px;
+    height:22px;
+    position: relative;
+    top: 266px;
+    
+}
+
+
+#help{
+    position: relative;
+    top:-200px
+}
+
+
+
+.a p{
+    margin-left: 20px;
+   
+}
+
+
+.bb p{
+    margin-left: 20px;
+    
+}
+
+.c p{
+    margin-left: 20px;
+}
+.d p{
+    margin-left: 20px;
+}

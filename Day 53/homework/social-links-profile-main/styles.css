@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.main{
+    padding: 20px;
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+   
+}
+
+#jes{
+    width: 80px;
+    border-radius: 100%;
+
+}
+.buttons button{
+    background-color: hsl(0, 0%, 20%);
+    color:hsl(0, 0%, 100%);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}

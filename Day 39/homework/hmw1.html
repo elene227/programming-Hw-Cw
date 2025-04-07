@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Films - Andjarnet Style</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Films Collection</h1>
+        <nav>
+            <ul>
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#top">Top Movies</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Movie Grid -->
+    <section id="movies">
+        <div class="movie-container">
+            <div class="movie-card">
+                <img src="movie1.jpg" alt="Movie 1">
+                <h3>Movie Title 1</h3>
+                <p>Action, Thriller</p>
+                <button onclick="showDetails('Movie 1')">Details</button>
+            </div>
+            <div class="movie-card">
+                <img src="movie2.jpg" alt="Movie 2">
+                <h3>Movie Title 2</h3>
+                <p>Drama, Romance</p>
+                <button onclick="showDetails('Movie 2')">Details</button>
+            </div>
+            <div class="movie-card">
+                <img src="movie3.jpg" alt="Movie 3">
+                <h3>Movie Title 3</h3>
+                <p>Comedy, Adventure</p>
+                <button onclick="showDetails('Movie 3')">Details</button>
+            </div>
+           
+        </div>
+    </section>
+
+    
+    <footer>
+        <p>© 2025 Films Collection. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

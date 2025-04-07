@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>მუსიკის საიტი</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            float: left;
+            display: block;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .main-content {
+            padding: 20px;
+        }
+        .album {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .album-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+            width: 200px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>მუსიკის სამყაროში</h1>
+        <p>გაეცანით ყველაზე პოპულარულ ალბომებს და მუსიკას</p>
+    </header>
+
+    <nav>
+        <a href="#about">ჩვენ შესახებ</a>
+        <a href="#albums">ალბომები</a>
+        <a href="#audio">მუსიკა</a>
+        <a href="#contact">კონტაქტი</a>
+    </nav>
+
+    <main class="main-content">
+        <section id="about">
+            <h2>ჩვენ შესახებ</h2>
+            <p>ეს არის მუსიკის საიტი, სადაც შეგიძლიათ მოისმინოთ საუკეთესო ალბომები და მუსიკა ყველა ჟანრში. ჩვენ გთავაზობთ მრავალფეროვან მასალას მუსიკის მოყვარულთათვის.</p>
+        </section>
+
+        <section id="albums">
+            <h2>ალბომები</h2>
+            <div class="album">
+                <article class="album-item">
+                    <h3>ალბომი 1</h3>
+                    <img src="album1.jpg" alt="ალბომი 1" width="200">
+                    <audio controls>
+                        <source src="audio1.mp3" type="audio/mp3">
+                    </audio>
+                </article>
+                <article class="album-item">
+                    <h3>ალბომი 2</h3>
+                    <img src="album2.jpg" alt="ალბომი 2" width="200">
+                    <audio controls>
+                        <source src="audio2.mp3" type="audio/mp3">
+                    </audio>
+                </article>
+                <article class="album-item">
+                    <h3>ალბომი 3</h3>
+                    <img src="album3.jpg" alt="ალბომი 3" width="200">
+                    <audio controls>
+                        <source src="audio3.mp3" type="audio/mp3">
+                    </audio>
+                </article>
+            </div>
+        </section>
+
+        <section id="audio">
+            <h2>სასიამოვნო მუსიკა</h2>
+            <audio controls>
+                <source src="audio4.mp3" type="audio/mp3">
+            </audio>
+        </section>
+
+        <section id="contact">
+            <h2>კონტაქტი</h2>
+            <form action="/submit" method="post">
+                <label for="name">სახელი:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">ელ. ფოსტა:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">შეტყობინება:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <input type="submit" value="გაგზავნა">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>2025 მუსიკის საიტი</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+#co{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:20px
+
+}
+
+
+#co div{
+    background-color: blue;
+}

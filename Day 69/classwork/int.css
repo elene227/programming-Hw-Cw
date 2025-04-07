@@ -1,0 +1,16 @@
+
+
+.cont{
+    display: grid;
+    grid-template-columns:  500px 500px 500px 500px ;
+    grid-template-rows: 500px 500px 500px 500px;
+}
+
+
+div{
+    background-color: rgb(43, 29, 10);
+    grid-column-start: 3;
+    grid-row-start: 2;
+    width:50px;
+    height:auto;
+}

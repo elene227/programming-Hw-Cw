@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+div button{
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    border: none;
+   
+    
+}
+
+div .loading{
+    width: 250px;
+    height: 20px;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+
+div button:hover{
+    border: solid 2px #75daff;
+    box-shadow: 5px -1px 10px 5px #75daff;
+    border-radius: 20px;
+}

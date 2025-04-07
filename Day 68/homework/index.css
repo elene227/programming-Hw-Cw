@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: hsl(229, 57%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height:100vh;
+    background-image: url('./images/bg-desktop.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+
+}
+
+.border1{
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 15px 50% 15px 15px;
+    width: 220px;
+    height:210px;
+    padding: 20px;
+    color: hsl(229, 7%, 55%);
+    margin-right: 30px;
+    
+}
+
+
+
+
+.border2{
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 15px;
+    width: 500px;
+    height:180px;
+    margin-top:50px;
+    color: hsl(229, 7%, 55%);
+    padding:20px;
+    
+    
+}
+
+
+
+.line{
+    background-color:hsl(229, 64%, 9%);
+    height:25px;
+    margin:10px;
+    width: 450px;
+    border-radius: 25px;
+}
+
+
+
+
+.help{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:0;
+}
+
+
+
+
+
+
+.a{
+    background-color:hsl(229, 57%, 11%) ;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.b{
+    background-color:hsl(229, 57%, 11%) ;
+    width: 50px;
+    height: auto;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.c{
+    background-color:hsl(229, 57%, 11%) ;
+    width: 50px;
+    height: auto;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+
+#doc{
+    width: 30px;
+    height: 30px;
+}
+
+
+#fol{
+    width: 30px;
+    height: 30px;
+}
+
+#upl{
+    width: 30px;
+    height: 30px;
+}
