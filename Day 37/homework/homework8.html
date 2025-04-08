@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shapes Hover</title>
+    <style>
+        .shape {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .circle {
+            background-color: red;
+        }
+
+        .square {
+            background-color: green;
+        }
+
+        .triangle {
+            background-color: blue;
+            width: 0;
+            height: 0;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-bottom: 100px solid blue;
+        }
+
+        .hover-shape:hover {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+        }
+    </style>
+</head>
+<body>
+    <div class="shape circle hover-shape"></div>
+    <div class="shape square hover-shape"></div>
+    <div class="shape triangle hover-shape"></div>
+</body>
+</html>

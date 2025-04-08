@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ფერის საიტი</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            transition: background-color 0.5s ease;
+        }
+        .content {
+            text-align: center;
+            margin-top: 50px;
+        }
+        input[type="color"] {
+            margin: 10px;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="content">
+    <h1>გამოიყენეთ ფერები</h1>
+
+    <input type="color" id="color1" value="#ff0000">
+    <input type="color" id="color2" value="#00ff00">
+    <input type="color" id="color3" value="#0000ff">
+
+    <button onclick="window.location.href='page1.html';">გადასვლა გვერდზე 1</button>
+    <button onclick="window.location.href='page2.html';">გადასვლა გვერდზე 2</button>
+    <button onclick="window.location.href='page3.html';">გადასვლა გვერდზე 3</button>
+
+    <img src="https://via.placeholder.com/200" alt="Image 1">
+    <img src="https://via.placeholder.com/200" alt="Image 2">
+    <img src="https://via.placeholder.com/200" alt="Image 3">
+</div>
+
+<style>
+    #color1:active, #color2:active, #color3:active {
+        background-color: #ff5733;
+    }
+
+    #color1:focus, #color2:focus, #color3:focus {
+        background-color: #ff5733;
+    }
+</style>
+
+</body>
+</html>
