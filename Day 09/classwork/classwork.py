@@ -8,4 +8,4 @@ print (False or False)
 print (True or False)
 print (False or True)
 
-print((True or False) or (False and True) and (True and False) and (True or False) or (False and True) and (True and False))
+print(True or False or False and True and True and False and True or False or False and True and True and False)
