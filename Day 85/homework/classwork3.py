@@ -1,13 +1,12 @@
 # 5) შექმენით ფუნქცია სადაც მომხმარებელს შემოატანინებთ რიცხვს და ამ რიცხვის ჩათვლით შეკრიბავთ ყველა მარტივ რიცხვს
 def prime():
-    n = int(input("შეიყვანე რიცხვი: "))
-    s = 0
-    for i in range(2, n+1):
-        f = 1
-        for d in range(2, int(i**0.5)+1):
-            f *= i % d
-        if f:
-            s += i
-    print(s)
+    my = []
+    for number in [3, 345, 34, 2]:
+        for num in range(2, number):
+            if number % num == 0:
+                break
+        else:
+            my.append(number)
+    return my
 
-prime()
+print(prime())
