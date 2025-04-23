@@ -1,1 +1,1 @@
-print("no classwork")
+print("me gavicani vinme .-.")
