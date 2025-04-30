@@ -7,7 +7,7 @@ def users():
         for i in str(num):
             sum += int(i)
     else:
-        for i in str(num)[1::]:
+        for i in str(num)[1::]: #20
             sum += int(i)
     return(int(num) / sum)
     

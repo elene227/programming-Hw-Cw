@@ -3,11 +3,12 @@ def palind(reverse):
     iss = ""
 
     for i in reverse:
-        iss = i + iss
+        iss = i + iss 
 
 
     return iss == reverse
 
+# 
 
 
 
