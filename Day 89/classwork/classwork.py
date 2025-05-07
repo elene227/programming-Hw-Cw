@@ -1,4 +1,7 @@
 def digital_root(n):
     while n >= 10:
-        n = sum(int(digit) for digit in str(n))
-    return(n)
+        digit = 0
+        for i in str(n):
+            digit += int(i)
+        n = digit
+    return n
