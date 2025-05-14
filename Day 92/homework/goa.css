@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000000;
+    color: #1a3d2f;
+    line-height: 1.6;
+
+
+}
+
+header img{
+    width: 170px;
+    border-radius: 20px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 20px 20px;
+    background-color: #061900;
+    
+
+}
+
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    text-align: center;
+}
+
+.withnav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    
+}
+
+nav a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #446c5b;
+    font-weight: 700;
+}
+
+#a{
+    margin-right: 80px;
+   
+
+}
+
+header h1{
+    color: rgb(106, 159, 111);
+    font-size: 30px;
+    margin-top: 10px;
+
+}
+header span{
+    color: #69e510;
+}
+
+
+.withnav button{
+    padding: 13px 15px 10px 15px ;
+    font-size: 15px;
+    border-radius: 35px;
+    background-color: rgb(203, 250, 47);
+    color: orangered;
+    font-weight: 600;
+    border: 5px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.box1{
+    background-color: #bcf8b1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.box1 p a{
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: underline;
+    color: #ffffff;
+    
+}
+
+#b{
+    color: rgb(186, 252, 196);
+    
+    
+}
+
+.navmain{
+    display: flex;
+    flex-direction: row;
+    gap: 600px;
+
+}
+
+.navs{
+    background-color: #d7ffd7;
+    padding: 5px;
+    box-shadow: 20px 25px 0px rgb(0, 0, 0);
+
+
+}
+.navs h1{
+    color: #062216;
+
+}
+
+.withnav button:hover{
+    background-color: rgb(123, 132, 92);
+    color:#bcf8b1;
+}
+
+.navs:hover{
+    background-color: #000000;
+    color:aliceblue;
+    
+}
+.navs h1:hover{
+    color: aliceblue;
+}
