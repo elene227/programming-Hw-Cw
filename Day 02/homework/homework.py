@@ -1,3 +1,1 @@
-name = "random"
-animal = "cat"
-game = "visual studio code"
+print("Batoni gabriel molodini, Vano motiasvlili, Ana puturidze, saba, elene, nika, andria,   ")
