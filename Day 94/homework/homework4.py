@@ -3,4 +3,18 @@ def unscramble_eggs(word):
     
 
     return "".join(word)
-    
+
+
+#
+#
+#
+#
+##
+#
+#
+#
+#
+#
+#
+#
+# the day is dumb 
