@@ -65,6 +65,7 @@ header button{
 
 .h p{
     font-size: 22px;
+    font-weight: 300;
 }
 .h h2{
     font-size: 55px;
@@ -74,17 +75,59 @@ header button{
     display: flex;
     flex-direction: row;
     gap: 15px;
-    
 
 }
 
 form input{
-    padding: 20px;
+    padding: 15px 45px;
     border-radius: 26px;
     border: none;
     outline: none;
     background-color: #F5F5F5;
+
     
 
 }
+form{
+    display: flex;
+    flex-direction: row;
+    align-items: self-start;
+    
+}
 
+.b{
+    background-color: #FFCE31;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    padding:15px 35px;
+    font-weight: 700;
+    
+}
+
+form input::placeholder{
+    color: #717171;
+
+}
+
+.NO{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 50px;
+
+}
+
+.NO img{
+    width: 215px;
+}
+
+.NOO{
+    display: flex;
+    gap:45px;
+}
+
+.NOO img{
+    width: 95px;
+}
