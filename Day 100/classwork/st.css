@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(71, 71, 71);
+}
+
+
+nav{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    
+    align-items: center;
+
+}
+nav img{
+    width: 200px;
+    margin: 20px;
+    opacity: 0%;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap:100px;
+
+}
+
+ul li{
+    font-size: 40px;
+}
+
+@media(min-width: 400px){
+    nav img{
+        opacity: 100%;
+    }
+
+
+}

@@ -329,7 +329,6 @@ hr{
     display: flex;
     flex-direction: column;
     gap:10px;
-    
 }
 .annoyingtext h3{
     font-size: 20px;
@@ -350,7 +349,8 @@ hr{
 .YESSS div{
     display: flex;
     flex-direction: column;
-    gap:20px
+    gap:20px;
+
 }
 
 .yippe p{
