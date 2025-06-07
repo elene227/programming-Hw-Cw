@@ -200,6 +200,7 @@ hr{
 .rip img{
     width: 350px;
 
+
 }
 
 .str h3{
@@ -207,6 +208,7 @@ hr{
     position: relative;
     top: 100px;
 }
+
 .ug h3{
     z-index: 1;
     position: relative;
@@ -222,7 +224,6 @@ hr{
     top: 100px;
     left: 70px;
     font-size: 26px;
-
 }
 
 .ug p{
@@ -350,7 +351,6 @@ hr{
     display: flex;
     flex-direction: column;
     gap:20px;
-
 }
 
 .yippe p{
