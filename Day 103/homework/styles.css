@@ -435,7 +435,7 @@ header h1 {
     display: flex;
     flex-direction: column;
     gap:20px;
-     height: 450px;
+    height: 450px;
 
 }
 .card3{
@@ -446,7 +446,7 @@ header h1 {
     flex-direction: column;
     gap:20px;
     width: 350px;
-     height: 450px;
+    height: 450px;
 }
 
 .card1 div{
@@ -526,3 +526,211 @@ header h1 {
     text-align: center;
 }
 
+
+.bkgblack{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    padding: 100px;
+}
+
+.build{
+    display: flex;
+    flex-direction: column;
+    gap:17px;
+    align-items: self-start;
+
+   
+}
+.build div{
+    background-color: #5846FB;
+    padding: 12px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.build h2{
+    font-size: 50px;
+    font-weight: 400;
+}
+.build h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+.build p{
+    font-size: 15px;
+    font-weight: 300;
+}
+.build h4{
+    font-weight: 300;
+    color: #5846FB;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.buildstages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    
+}
+
+.locker{
+    background: linear-gradient( #5442F5,#5442F4, #2C18E5);
+    border-radius: 100px;
+    padding: 35px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.locker img{
+    width: 90px;
+}
+.locker p{
+    margin-bottom: 20px;
+}
+
+.locker div{
+    background-color: #523FFF;
+    padding: 2px 50px;
+    border-radius: 20px;
+
+}
+
+.locker .divv {
+    background-color: #523FFF;
+    padding: 2px 34px;
+    border-radius: 20px;
+}
+
+.lockersmain{
+    display: flex;
+    flex-direction: row;
+    align-items: self-start;
+    gap: 20px;
+}
+
+.stages{
+    background-color: #1E1F21;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 1px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 150px 110px;
+}
+
+.stage1{
+    background: linear-gradient( #262729,#1E1F21, #101010);
+    padding: 25px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    z-index: 3;
+    translate: 60px 20px;
+    
+}
+
+
+.rows{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.allstages{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.stage2{
+    background: linear-gradient( #5442F5,#5442F4, #2C18E5);
+    padding: 50px;
+    border-radius: 20px;
+    z-index: 2;
+}
+.stage3{
+    background: linear-gradient(rgb(255, 196, 0), rgb(255, 153, 0));
+    padding: 10px;
+    border-radius: 20px;
+    translate: -60px -20px;
+    z-index: 1;
+
+}
+.stage3 img{
+    width: 80px;
+    translate: 20px -20px;
+}
+
+.st{
+    translate: 10px -50px;
+}
+
+.sc{
+    translate: -80px 220px;
+}
+
+.bitcoin{
+    translate: -100px 160px;
+}
+
+
+.blts{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.blts img{
+    width: 30px;
+}
+.blts div{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    background-color: #1F2123;
+    padding: 20px 50px;
+    border-radius: 50px;
+}
+.blts p{
+    font-size: 15px;
+}
+
+.bkgwhite{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:100px
+}
+
+.texttt{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ff{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+
+.twodivs{
+    display: flex;
+    flex-direction: row;
+}
