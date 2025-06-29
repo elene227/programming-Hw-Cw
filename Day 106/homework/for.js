@@ -6,6 +6,8 @@
 
 
 let name = "y/n"
+
 let username = "y/u"
+
 
 console.log(name +" " + username)
