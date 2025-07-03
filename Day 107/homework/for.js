@@ -5,4 +5,4 @@ const num1 = prompt("enter number: ")
 const num2 = prompt("enter number: ")
 
 
-alert(Number(num1) + Number(num2))
+alert(Number(num1) + Number(num2)) 
