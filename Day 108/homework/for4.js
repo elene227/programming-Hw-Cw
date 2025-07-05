@@ -3,7 +3,7 @@
 
 
 let arr = [2, 4, 4, 5, 8, 9, 10, "hai"]
-let user = (prompt("enter a number: "))
+let user = Number(prompt("enter a number: "))
 
 
 console.log(arr[user])  // ._. < ...
